@@ -1,0 +1,12 @@
+1 multiplication table 
+
+n= int (input("Enter the number "))
+
+for i in range (1,11):
+  print (f"{n} x {i} = {n*i}")
+
+  lessons :
+  I learned about indentation where the print line is not supposed to place at the same vertical line as the above code for if while def etc  
+  {} → Used to display variables or results dynamically inside strings.
+  : → Used to start a block of code, like after for, if, while, def, etc.
+  The f-string (f"...") allows you to insert variables directly inside the string
